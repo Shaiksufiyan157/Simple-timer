@@ -4,7 +4,7 @@ const timerEl = document.querySelector('#timer');
 const root = document.querySelector(':root');
 
 
-const totalSeconds=5
+const totalSeconds=60
 let playing=false
 let currentSeconds=totalSeconds
 timerEl.innerText=formatTime(totalSeconds);
